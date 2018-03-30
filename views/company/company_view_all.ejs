@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company - View All</title>
+</head>
+    <body>
+        <h1>Companies</h1>
+
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+            <% for(var i = 0; i < companies.length; i++) { %>
+                <tr>
+                    <td><%= companies[i].company_id %></td>
+                    <td><%= companies[i].company_name %></td>
+                </tr>
+            <% } %>
+        </table>
+    </body>
+</html>
