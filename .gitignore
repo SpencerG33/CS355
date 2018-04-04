@@ -1,0 +1,4 @@
+dal/db_connection.js
+node_modules
+.idea
+*.iml
