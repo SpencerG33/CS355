@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Account - View All</title>
+</head>
+<body>
+<h1>Stock Account</h1>
+<a href="/stock_account/add">Add New Stock Account</a> <br />
+<table border="1">
+    <tr><th>Password</th><th>Username </th>   <th>Action </th> </tr>
+    <% for(var i = 0; i < stock_account.length; i++) { %>
+    <tr>
+        <td>
+            <a>
+                <%= stock_account[i].password %>
+            </a>
+        </td>
+        <td>
+            <a >
+                <%= stock_account[i].username %>
+            </a>
+        </td>
+        <td>
+            <a href="/stock_account/edit/?stock_account_id=<%= stock_account[i].stock_account_id %>">
+                edit
+            </a>
+        </td>
+
+    </tr>
+    <% } %>
+</table>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sell - Add</title>
+</head>
+<body>
+<h1>Edit Sell </h1>
+<form action="/sell/update" method="get">
+    ticker: <input
+            id ="ticker"
+            name="ticker"
+            type="text"
+            value="<%= sell.ticker %>"
+    />
+
+    price: <input
+            id = "price"
+            name="price"
+            type="text"
+            value="<%= sell.price %>"
+    />
+    date: <input
+            id = "date"
+            name="date"
+            type="text"
+            value="<%= sell.date %>"
+    />
+
+    amount: <input
+            id = "amount"
+            name="amount"
+            type="text"
+            value="<%= sell.amount%>"
+    />
+    <input type="hidden"
+           id="sell_id"
+           name ="sell_id"
+           value="<%= sell.sell_id%>"
+    />
+
+    <br />
+    <input type="submit" />
+
+</form>
+</body>
+</html>

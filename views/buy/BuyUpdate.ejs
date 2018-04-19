@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy - Add</title>
+</head>
+<body>
+<h1>Edit Buy </h1>
+<form action="/buy/update" method="get">
+
+    ticker: <input
+            id ="ticker"
+            name="ticker"
+            type="text"
+            value="<%= buy.ticker %>"
+    />
+
+    price: <input
+            id = "price"
+            name="price"
+            type="text"
+            value="<%= buy.price %>"
+    />
+    date: <input
+            id = "date"
+            name="date"
+            type="text"
+            value="<%= buy.date %>"
+    />
+
+    amount: <input
+            id = "amount"
+            name="amount"
+            type="text"
+            value="<%= buy.amount%>"
+    />
+    <input type="hidden"
+           id="buy_id"
+           name ="buy_id"
+           value="<%= buy.buy_id%>"
+    />
+
+    <br />
+    <input type="submit" />
+
+</form>
+</body>
+</html>

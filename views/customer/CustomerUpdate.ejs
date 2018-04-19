@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer - Add</title>
+</head>
+<body>
+<h1>Edit Customer </h1>
+<form action="/customer/update" method="get">
+    social: <input
+            id ="social"
+            name ="social"
+            type="text"
+            value="<%= customer.social %>"
+    />
+    email: <input
+            id = "email"
+            name="email"
+            type="text"
+            value="<%= customer.email%>"
+    />
+
+
+    first_name: <input
+            id = "first_name"
+            name="first_name"
+            type="text"
+            value="<%= customer.first_name%>"
+    />
+
+
+
+    last_name: <input
+            id = "last_name"
+            name="last_name"
+            type="text"
+            value="<%= customer.last_name%>"
+    />
+
+
+    <input type="hidden"
+           id="customer_id"
+           name ="customer_id"
+           value="<%= customer.customer_id%>"
+    />
+
+    <br />
+    <input type="submit" />
+
+</form>
+</body>
+</html>

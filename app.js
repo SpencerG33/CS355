@@ -5,12 +5,16 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var index = require('../../IdeaProjects/Lab10/routes/index');
+
+var index = require('./routes/index');
 var users = require('./routes/users');
-var company = require('../../IdeaProjects/Lab10/routes/company');
-var account = require('../../IdeaProjects/Lab10/routes/account');
-var skill = require('./routes/skill');
-var address = require('../../IdeaProjects/Lab10/routes/address');
+var buy = require('./routes/buy');
+var sell = require('./routes/sell');
+var customer = require('./routes/customer');
+var stock_account = require ('./routes/stock_account');
+
+
+
 var app = express();
 
 // view engine setup
@@ -27,10 +31,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
-app.use('/company', company);
-app.use('/account', account);
-app.use('/skill', skill);
-app.use('/address',address);
+app.use('/buy', buy);
+app.use('/customer', customer);
+app.use('/sell', sell);
+app.use ('/stock_account', stock_account);
+
+
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

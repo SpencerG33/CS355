@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy - View All</title>
+</head>
+<body>
+<h1>Buy</h1>
+<a href="/buy/add">Add New Buy</a> <br />
+<table border="1">
+    <tr><th>Ticker</th><th>Price</th><th>Date </th><th>Amount </th><th>Action</th> </tr>
+    <% for(var i=0; buy.length > i; i++ ) {%>
+    <tr>
+
+        <td>
+            <%= buy[i].ticker %>
+
+            </a>
+        </td>
+        <td>
+
+            <%= buy[i].price %>
+            </a>
+        </td>
+        <td>
+
+            <%= buy[i].date %>
+            </a>
+        </td>
+        <td>
+
+            <%= buy[i].amount %>
+            </a>
+        </td>
+        <td>
+            <a href="/buy/edit/?buy_id=<%= buy[i].buy_id %>">
+                edit
+            </a>
+        </td>
+    </tr>
+    <% } %>
+</table>
+</body>
+</html>
