@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fbab929-ad76-468b-ad8b-daa1c537ad4f" name="Default" comment="lab10">
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/buy/dist.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/buy/join.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/buy/sub.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/buy/uni.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/customer/exi.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/customer/gro.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/customer/view.ejs" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/routes/buy.js" afterPath="$PROJECT_DIR$/routes/buy.js" />
-      <change beforePath="$PROJECT_DIR$/routes/customer.js" afterPath="$PROJECT_DIR$/routes/customer.js" />
-      <change beforePath="$PROJECT_DIR$/routes/dal/buy_dal.js" afterPath="$PROJECT_DIR$/routes/dal/buy_dal.js" />
-      <change beforePath="$PROJECT_DIR$/routes/dal/customer_dal.js" afterPath="$PROJECT_DIR$/routes/dal/customer_dal.js" />
+    <list default="true" id="5fbab929-ad76-468b-ad8b-daa1c537ad4f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/routes/dal/db_connection.js" afterPath="$PROJECT_DIR$/routes/dal/db_connection.js" />
-      <change beforePath="$PROJECT_DIR$/routes/dal/sell_dal.js" afterPath="$PROJECT_DIR$/routes/dal/sell_dal.js" />
-      <change beforePath="$PROJECT_DIR$/routes/dal/stock_account_dal.js" afterPath="$PROJECT_DIR$/routes/dal/stock_account_dal.js" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change beforePath="$PROJECT_DIR$/routes/sell.js" afterPath="$PROJECT_DIR$/routes/sell.js" />
-      <change beforePath="$PROJECT_DIR$/routes/stock_account.js" afterPath="$PROJECT_DIR$/routes/stock_account.js" />
-      <change beforePath="$PROJECT_DIR$/views/buy/buy_view_all.ejs" afterPath="$PROJECT_DIR$/views/buy/buy_view_all.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/customer/customer_view_all.ejs" afterPath="$PROJECT_DIR$/views/customer/customer_view_all.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/sell/sell_view_all.ejs" afterPath="$PROJECT_DIR$/views/sell/sell_view_all.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/stock_account/stock_account_view_all.ejs" afterPath="$PROJECT_DIR$/views/stock_account/stock_account_view_all.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -258,8 +237,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
-    <option name="width" value="954" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -810,7 +789,7 @@
       <workItem from="1526330136624" duration="807000" />
       <workItem from="1526343619519" duration="762000" />
       <workItem from="1526442910861" duration="606000" />
-      <workItem from="1526669261944" duration="10926000" />
+      <workItem from="1526669261944" duration="11037000" />
     </task>
     <task id="LOCAL-00001" summary="lab10">
       <created>1522874862937</created>
@@ -819,14 +798,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522874862937</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Project 2">
+      <created>1526692094861</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526692094861</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95436000" />
+    <option name="totallyTimeSpent" value="95547000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="0" width="954" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -838,10 +824,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23875803" sideWeight="0.4939074" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23875803" sideWeight="0.4939074" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29744136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29123172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17071198" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -868,7 +854,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab10" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab10" />
+    <MESSAGE value="Project 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
