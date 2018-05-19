@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy - View All</title>
+</head>
+<body>
+<h1>Shows all the distinct Tickers in the buy table</h1>
+<table border="1">
+    <tr><th>Ticker</th>  </tr>
+    <% for(var i=0; buy.length > i; i++ ) {%>
+    <tr>
+
+        <td>
+            <%= buy[i].ticker %>
+
+            </a>
+        </td>
+
+    </tr>
+    <% } %>
+</table>
+</body>
+</html>

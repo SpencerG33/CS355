@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy - View All</title>
+</head>
+<body>
+<h1>A join between the buy and sell table with similar IDs</h1>
+
+<table border="1">
+    <tr><th>Buy ID</th><th>Ticker</th><th>Price</th><th>Date </th><th>Amount </th><th>Sell ID </th><th>Ticker </th><th>price </th><th>Date </th><th>Amount </th>  </tr>
+    <% for(var i=0; buy.length > i; i++ ) {%>
+    <tr>
+        <td>
+            <%= buy[i].buy_id %>
+
+            </a>
+        </td>
+        <td>
+            <%= buy[i].ticker %>
+
+            </a>
+        </td>
+        <td>
+
+            <%= buy[i].price %>
+            </a>
+        </td>
+        <td>
+
+            <%= buy[i].date %>
+            </a>
+        </td>
+        <td>
+
+            <%= buy[i].amount %>
+            </a>
+        </td>
+        <td>
+            <%= buy[i].sell_id %>
+            </a>
+        </td>
+        <td>
+            <%= buy[i].ticker %>
+            </a>
+        </td>
+        <td>
+            <%= buy[i].price %>
+            </a>
+        </td>
+        <td>
+            <%= buy[i].date %>
+            </a>
+        </td>
+        <td>
+            <%= buy[i].amount %>
+            </a>
+        </td>
+    </tr>
+    <% } %>
+</table>
+</body>
+</html>

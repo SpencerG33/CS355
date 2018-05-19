@@ -7,7 +7,7 @@
 <h1>Sell</h1>
 <a href="/sell/add">Add New Sell</a> <br />
 <table border="1">
-    <tr><th>Ticker</th><th>Price</th><th>Date </th><th>Amount </th><th>Action</th> </tr>
+    <tr><th>Ticker</th><th>Price</th><th>Date </th><th>Amount </th><th>Edit</th><th>Delete</th> </tr>
     <% for(var i=0; sell.length > i; i++ ) {%>
     <tr>
 
@@ -34,6 +34,11 @@
         <td>
             <a href="/sell/edit/?sell_id=<%= sell[i].sell_id %>">
                 edit
+            </a>
+        </td>
+        <td>
+            <a href="/sell/delete/?sell_id=<%= sell[i].sell_id %>">
+                delete
             </a>
         </td>
     </tr>

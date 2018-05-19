@@ -5,7 +5,70 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <h1>Spencer's Stock Database
+    <p>Welcome! Links to the database are listed below </p>
+      <td>
+        <a href="/stock_account/all/ "> Stock Account View all </a>
+      </td>
+      <br/>
+      <td>
+        <a href="/customer/all/ "> Customer View all (Click me to create account)</a>
+      </td>
+      <br/>
+      <td>
+        <a href="/buy/all/ "> Buy View all </a>
+      </td>
+      <br/>
+      <td>
+        <a href="/sell/all/ "> Sell View all </a>
+      </td>
+      <br/>
+      <br/>
+      <td>
+        <a href="/customer/view/ "> View customers first names in alphabetical order (A query using ORDER BY)</a>
+      </td>
+      <br/>
+      <br/>
+      <td>
+        <a href="/customer/in/ "> View of all customers with a stock account (A query using a subquery with IN or NOT IN )</a>
+      </td>
+      <br />
+      <br/>
+      <td>
+        <a href="/buy/dist/ "> View all the distinct tickers in the buy table (A query using DISTINCT)</a>
+      </td>
+
+      <br />
+      <br/>
+      <td>
+        <a href="/buy/uni/ "> View all of the tickers in both the buy and sell table (A query using a UNION)</a>
+      </td>
+
+      <br />
+      <br/>
+      <td>
+        <a href="/customer/exi/ "> View of all customers with a stock account (A query using a subquery with EXISTS)</a>
+      </td>
+
+      <br />
+      <br/>
+      <td>
+        <a href="/customer/gro/ "> View of all customers and all there stock account (A query using group by)</a>
+      </td>
+      <br />
+      <br/>
+      <a href="/buy/sub/ "> All buys above average amount bought (A query using a correlated subquery,  and a query that compares a value in the outer query to a value returned by the inner query)</a>
+      <br />
+      <br/>
+      <a href="/buy/join/ "> All buys and sells joined together (A query using a subquery in a JOIN)</a>
+      <br />
+      <br/>
+
+      <br />
+      <br/>
+
+
+
+
   </body>
 </html>

@@ -65,4 +65,73 @@ router.get('/update', function (req, res) {
 
 });
 
+
+router.get('/delete', function (req, res) {
+    buy_dal.delete(req.query.buy_id, function (err,result) {
+        if(err){
+            console.log(err);
+            res.send(err)
+        }
+        else {
+            res.redirect(302, '/buy/all');
+        }
+    });
+});
+
+router.get('/dist', function(reg, res, next) {
+    buy_dal.dist(function (err, result) {
+        if(err) {
+            console.log(err);
+            res.send(err);
+        } else {
+            console.log(result);
+            res.render('buy/dist', {buy: result, ticker: result, price: result, date: result});
+        }
+    })
+});
+router.get('/uni', function(reg, res, next) {
+    buy_dal.uni(function (err, result) {
+        if(err) {
+            console.log(err);
+            res.send(err);
+        } else {
+            console.log(result);
+            res.render('buy/uni', {buy: result, ticker: result, price: result, date: result});
+        }
+    })
+
+
+});
+
+
+router.get('/sub', function(reg, res, next) {
+    buy_dal.sub(function (err, result) {
+        if(err) {
+            console.log(err);
+            res.send(err);
+        } else {
+            console.log(result);
+            res.render('buy/sub', {buy: result, ticker: result, price: result, date: result});
+        }
+    })
+
+
+});
+
+router.get('/join', function(reg, res, next) {
+    buy_dal.join(function (err, result) {
+        if(err) {
+            console.log(err);
+            res.send(err);
+        } else {
+            console.log(result);
+            res.render('buy/join', {buy: result, ticker: result, price: result, date: result});
+        }
+    })
+
+
+});
+
+
+
 module.exports = router;

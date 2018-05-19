@@ -7,7 +7,7 @@
 <h1>Customer</h1>
 <a href="/customer/add">Add New Customer</a> <br />
 <table border="1">
-    <tr><th>Social</th><th>Email</th><th>First Name </th><th>Last Name </th><th>Action</th> </tr>
+    <tr><th>Social</th><th>Email</th><th>First Name </th><th>Last Name </th><th>Edit</th><th>Delete</th> </tr>
     <% for(var i=0; customer.length > i; i++ ) {%>
     <tr>
 
@@ -35,6 +35,11 @@
         <td>
             <a href="/customer/edit/?customer_id=<%= customer[i].customer_id %>">
                 edit
+            </a>
+        </td>
+        <td>
+            <a href="/customer/delete/?customer_id=<%= customer[i].customer_id %>">
+                delete
             </a>
         </td>
     </tr>

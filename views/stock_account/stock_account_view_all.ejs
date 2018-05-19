@@ -7,7 +7,7 @@
 <h1>Stock Account</h1>
 <a href="/stock_account/add">Add New Stock Account</a> <br />
 <table border="1">
-    <tr><th>Password</th><th>Username </th>   <th>Action </th> </tr>
+    <tr><th>Password</th><th>Username </th>   <th>Edit </th><th>Delete </th> </tr>
     <% for(var i = 0; i < stock_account.length; i++) { %>
     <tr>
         <td>
@@ -23,6 +23,10 @@
         <td>
             <a href="/stock_account/edit/?stock_account_id=<%= stock_account[i].stock_account_id %>">
                 edit
+            </a>
+        </td><td>
+            <a href="/stock_account/delete/?stock_account_id=<%= stock_account[i].stock_account_id %>">
+                delete
             </a>
         </td>
 

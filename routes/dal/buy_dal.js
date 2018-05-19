@@ -44,3 +44,45 @@ exports.update = function (params, callback) {
         callback(err, result);
     });
 };
+
+exports.delete = function (buy, callback) {
+    var query = 'call buy_delete(?)';
+    var queryData = [buy];
+
+    connection.query(query, queryData, function (err, result) {
+        callback(err, result);
+    });
+};
+
+
+exports.dist = function(callback) {
+    var query = 'SELECT * FROM dist;';
+
+    connection.query(query, function (err, result){
+        callback(err, result);
+    });
+};
+
+exports.uni = function(callback) {
+    var query = 'SELECT * FROM uni;';
+
+    connection.query(query, function (err, result){
+        callback(err, result);
+    });
+};
+
+exports.sub = function(callback) {
+    var query = 'SELECT * FROM sub;';
+
+    connection.query(query, function (err, result){
+        callback(err, result);
+    });
+};
+
+exports.join = function(callback) {
+    var query = 'select * from buy join ( select * from sell) q on buy_id = sell_id;';
+
+    connection.query(query, function (err, result){
+        callback(err, result);
+    });
+};

@@ -4,10 +4,9 @@
     <title>Buy - View All</title>
 </head>
 <body>
-<h1>Buy</h1>
-<a href="/buy/add">Add New Buy</a> <br />
+<h1>Shows all the tickers that are above all the average amount bought. *must be sold with same ID </h1>
 <table border="1">
-    <tr><th>Ticker</th><th>Price</th><th>Date </th><th>Amount </th><th>Edit</th><th>Delete</th>  </tr>
+    <tr><th>Ticker</th><th>Price</th><th>Date </th><th>Amount </th>  </tr>
     <% for(var i=0; buy.length > i; i++ ) {%>
     <tr>
 
@@ -31,16 +30,7 @@
             <%= buy[i].amount %>
             </a>
         </td>
-        <td>
-            <a href="/buy/edit/?buy_id=<%= buy[i].buy_id %>">
-                edit
-            </a>
-        </td>
-        <td>
-            <a href="/buy/delete/?buy_id=<%= buy[i].buy_id %>">
-                delete
-            </a>
-        </td>
+
     </tr>
     <% } %>
 </table>

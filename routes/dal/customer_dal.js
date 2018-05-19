@@ -44,3 +44,46 @@ exports.update = function (params, callback) {
         callback(err, result);
     });
 };
+
+
+exports.view = function(callback) {
+    var query = 'SELECT * FROM alpha;';
+
+    connection.query(query, function (err, result){
+        callback(err, result);
+    });
+};
+
+exports.in = function(callback) {
+    var query = 'SELECT * FROM sub_in;';
+
+    connection.query(query, function (err, result){
+        callback(err, result);
+    });
+};
+
+exports.exi = function(callback) {
+    var query = 'SELECT * FROM exi;';
+
+    connection.query(query, function (err, result){
+        callback(err, result);
+    });
+};
+
+exports.gro = function(callback) {
+    var query = 'SELECT * FROM gro;';
+
+    connection.query(query, function (err, result){
+        callback(err, result);
+    });
+};
+
+
+exports.delete = function (customer, callback) {
+    var query = 'call customer_delete(?)';
+    var queryData = [customer];
+
+    connection.query(query, queryData, function (err, result) {
+        callback(err, result);
+    });
+};

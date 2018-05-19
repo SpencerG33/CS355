@@ -44,3 +44,12 @@ exports.update = function (params, callback) {
         callback(err, result);
     });
 };
+
+exports.delete = function (sell, callback) {
+    var query = 'call sell_delete(?)';
+    var queryData = [sell];
+
+    connection.query(query, queryData, function (err, result) {
+        callback(err, result);
+    });
+};

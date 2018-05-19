@@ -45,3 +45,12 @@ exports.update = function (params, callback) {
     });
 };
 
+exports.delete = function (stock_account, callback) {
+    var query = 'call stock_account_delete(?)';
+    var queryData = [stock_account];
+
+    connection.query(query, queryData, function (err, result) {
+        callback(err, result);
+    });
+};
+

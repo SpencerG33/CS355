@@ -1,49 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app.js" line="34" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="5fbab929-ad76-468b-ad8b-daa1c537ad4f" name="Default" comment="lab10">
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/buy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/customer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/dal/buy_dal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/dal/customer_dal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/dal/sell_dal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/dal/stock_account_dal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/sell.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/stock_account.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/buy/BuyUpdate.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/buy/buy_add.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/buy/buy_view_all.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/customer/CustomerUpdate.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/customer/customer_add.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/customer/customer_view_all.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/sell/SellUpdate.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/sell/sell_add.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/sell/sell_view_all.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/stock_account/Stock_AccountUpdate.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/stock_account/stock_account_add.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/stock_account/stock_account_view_all.ejs" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="$PROJECT_DIR$/routes/account.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/routes/address.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/routes/company.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/routes/dal/account_dal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/routes/dal/address_dal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/routes/dal/company_dal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/routes/dal/skill_dal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/routes/skill.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/account/account_add.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/account/account_view_all.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/address/address_add.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/address/address_view_all.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/company/CompanyUpdate.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/company/company_add.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/company/company_view_all.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/skill/skill_add.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/skill/skill_view_all.ejs" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/buy/dist.ejs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/buy/join.ejs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/buy/sub.ejs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/buy/uni.ejs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/customer/exi.ejs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/customer/gro.ejs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/customer/view.ejs" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/routes/buy.js" afterPath="$PROJECT_DIR$/routes/buy.js" />
+      <change beforePath="$PROJECT_DIR$/routes/customer.js" afterPath="$PROJECT_DIR$/routes/customer.js" />
+      <change beforePath="$PROJECT_DIR$/routes/dal/buy_dal.js" afterPath="$PROJECT_DIR$/routes/dal/buy_dal.js" />
+      <change beforePath="$PROJECT_DIR$/routes/dal/customer_dal.js" afterPath="$PROJECT_DIR$/routes/dal/customer_dal.js" />
+      <change beforePath="$PROJECT_DIR$/routes/dal/db_connection.js" afterPath="$PROJECT_DIR$/routes/dal/db_connection.js" />
+      <change beforePath="$PROJECT_DIR$/routes/dal/sell_dal.js" afterPath="$PROJECT_DIR$/routes/dal/sell_dal.js" />
+      <change beforePath="$PROJECT_DIR$/routes/dal/stock_account_dal.js" afterPath="$PROJECT_DIR$/routes/dal/stock_account_dal.js" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change beforePath="$PROJECT_DIR$/routes/sell.js" afterPath="$PROJECT_DIR$/routes/sell.js" />
+      <change beforePath="$PROJECT_DIR$/routes/stock_account.js" afterPath="$PROJECT_DIR$/routes/stock_account.js" />
+      <change beforePath="$PROJECT_DIR$/views/buy/buy_view_all.ejs" afterPath="$PROJECT_DIR$/views/buy/buy_view_all.ejs" />
+      <change beforePath="$PROJECT_DIR$/views/customer/customer_view_all.ejs" afterPath="$PROJECT_DIR$/views/customer/customer_view_all.ejs" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change beforePath="$PROJECT_DIR$/views/sell/sell_view_all.ejs" afterPath="$PROJECT_DIR$/views/sell/sell_view_all.ejs" />
+      <change beforePath="$PROJECT_DIR$/views/stock_account/stock_account_view_all.ejs" afterPath="$PROJECT_DIR$/views/stock_account/stock_account_view_all.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,101 +45,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="dist.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/buy/dist.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sub.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/buy/sub.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="99" lean-forward="false" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lab10.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab10.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/buy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="127" column="32" lean-forward="false" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/error.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="59" column="109" lean-forward="false" selection-start-line="59" selection-start-column="109" selection-end-line="59" selection-end-column="109" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buy_dal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/dal/buy_dal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="82" column="83" lean-forward="false" selection-start-line="82" selection-start-column="83" selection-end-line="82" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="buy_view_all.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/buy/buy_view_all.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="9" column="90" lean-forward="false" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sell.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/sell.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="7" lean-forward="false" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sell_dal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/dal/sell_dal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="2" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stock_account_dal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/dal/stock_account_dal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer_view_all.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/customer/customer_view_all.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerUpdate.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/customer/CustomerUpdate.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/customer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SellUpdate.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/sell/SellUpdate.ejs">
+      <file leaf-file-name="join.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/buy/join.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sell_view_all.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/sell/sell_view_all.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buy_add.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/buy/buy_add.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+              <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -211,12 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/company/CompanyUpdate.ejs" />
-        <option value="$PROJECT_DIR$/routes/dal/company_dal.js" />
-        <option value="$PROJECT_DIR$/views/company/company_add.ejs" />
-        <option value="$PROJECT_DIR$/routes/company.js" />
-        <option value="$PROJECT_DIR$/views/school/school_add.ejs" />
-        <option value="$PROJECT_DIR$/views/company/company_view_all.ejs" />
         <option value="$PROJECT_DIR$/routes/school.js" />
         <option value="$PROJECT_DIR$/routes/dal/school_dal.js" />
         <option value="$PROJECT_DIR$/views/school/SchoolUpdate.ejs" />
@@ -228,7 +203,6 @@
         <option value="$PROJECT_DIR$/views/account/account_view_all.ejs" />
         <option value="$PROJECT_DIR$/views/account/AccountUpdate.ejs" />
         <option value="$PROJECT_DIR$/views/stock_account/stock_account_add.ejs" />
-        <option value="$PROJECT_DIR$/routes/stock_account.js" />
         <option value="$PROJECT_DIR$/views/stock_account/Stock_AccountUpdate.ejs" />
         <option value="$PROJECT_DIR$/routes/dal/skill_dal.js" />
         <option value="$PROJECT_DIR$/routes/dal/customer.js" />
@@ -236,9 +210,7 @@
         <option value="$PROJECT_DIR$/views/skill/skill_add.ejs" />
         <option value="$PROJECT_DIR$/views/skill/skill_view_all.ejs" />
         <option value="$PROJECT_DIR$/views/customer/customer_view_all.ejs.js" />
-        <option value="$PROJECT_DIR$/views/customer/customer_view_all.ejs" />
         <option value="$PROJECT_DIR$/views/skill/SkillUpdate.ejs" />
-        <option value="$PROJECT_DIR$/routes/customer.js" />
         <option value="$PROJECT_DIR$/routes/dal/address_dal.js" />
         <option value="$PROJECT_DIR$/routes/address.js" />
         <option value="$PROJECT_DIR$/views/address/address_add.ejs" />
@@ -246,21 +218,31 @@
         <option value="$PROJECT_DIR$/views/address/AddressUpdate.ejs" />
         <option value="$PROJECT_DIR$/views/customer/CustomerUpdate.ejs" />
         <option value="$PROJECT_DIR$/_DS_Store" />
-        <option value="$PROJECT_DIR$/routes/sell.js" />
         <option value="$PROJECT_DIR$/views/sell/sell_add.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/stock_account/stock_account_view_all.ejs" />
-        <option value="$PROJECT_DIR$/views/sell/sell_view_all.ejs" />
         <option value="$PROJECT_DIR$/views/customer/customer_add.ejs" />
-        <option value="$PROJECT_DIR$/routes/dal/stock_account_dal.js" />
-        <option value="$PROJECT_DIR$/routes/dal/sell_dal.js" />
-        <option value="$PROJECT_DIR$/routes/dal/customer_dal.js" />
-        <option value="$PROJECT_DIR$/routes/dal/buy_dal.js" />
-        <option value="$PROJECT_DIR$/routes/buy.js" />
         <option value="$PROJECT_DIR$/views/buy/buy_add.ejs" />
-        <option value="$PROJECT_DIR$/views/buy/buy_view_all.ejs" />
         <option value="$PROJECT_DIR$/views/buy/BuyUpdate.ejs" />
         <option value="$PROJECT_DIR$/views/sell/SellUpdate.ejs" />
+        <option value="$PROJECT_DIR$/views/buy/buy_view_all.ejs" />
+        <option value="$PROJECT_DIR$/views/customer/customer_view_all.ejs" />
+        <option value="$PROJECT_DIR$/views/sell/sell_view_all.ejs" />
+        <option value="$PROJECT_DIR$/views/stock_account/stock_account_view_all.ejs" />
+        <option value="$PROJECT_DIR$/routes/dal/stock_account_dal.js" />
+        <option value="$PROJECT_DIR$/routes/stock_account.js" />
+        <option value="$PROJECT_DIR$/routes/dal/sell_dal.js" />
+        <option value="$PROJECT_DIR$/routes/sell.js" />
+        <option value="$PROJECT_DIR$/views/customer/in.ejs" />
+        <option value="$PROJECT_DIR$/views/buy/dist.ejs" />
+        <option value="$PROJECT_DIR$/routes/dal/customer_dal.js" />
+        <option value="$PROJECT_DIR$/views/customer/exi.ejs" />
+        <option value="$PROJECT_DIR$/views/customer/gro.ejs" />
+        <option value="$PROJECT_DIR$/routes/customer.js" />
+        <option value="$PROJECT_DIR$/views/buy/sub.ejs" />
+        <option value="$PROJECT_DIR$/routes/dal/buy_dal.js" />
+        <option value="$PROJECT_DIR$/routes/buy.js" />
+        <option value="$PROJECT_DIR$/views/buy/join.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -275,10 +257,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="128" />
-    <option name="y" value="412" />
-    <option name="width" value="968" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
+    <option name="width" value="954" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -299,6 +280,8 @@
     <panes>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,12 +289,50 @@
               <item name="Stock" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stock" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="buy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="sell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="stock_account" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,21 +340,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
-    <property name="SearchEverywhereHistoryKey" value="term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;da&#9;ACTION&#9;ActivateDatabaseToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="terminal&#9;ACTION&#9;ActivateTerminalToolWindow&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;da&#9;ACTION&#9;ActivateDatabaseToolWindow" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\greco\Desktop\Stock\routes\dal" />
       <recent name="$PROJECT_DIR$/routes" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/views" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\greco\Desktop\Stock\views\sell" />
+      <recent name="C:\Users\greco\Desktop\Stock\views\buy" />
+      <recent name="C:\Users\greco\Desktop\Stock\views\customer" />
+      <recent name="C:\Users\greco\Desktop\Stock\views" />
+      <recent name="C:\Users\greco\Desktop\Stock" />
       <recent name="C:\Users\greco\Desktop\Stock\routes" />
-      <recent name="C:\Users\greco\Desktop\Stock\routes\dal" />
-      <recent name="$PROJECT_DIR$/views/school" />
-      <recent name="C:\Users\greco\Desktop\Lab10\views\address" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -781,7 +803,14 @@
       <workItem from="1523917510185" duration="772000" />
       <workItem from="1524003806867" duration="2758000" />
       <workItem from="1524169678776" duration="7001000" />
-      <workItem from="1524180965476" duration="242000" />
+      <workItem from="1524180965476" duration="814000" />
+      <workItem from="1524626156084" duration="245000" />
+      <workItem from="1524776617874" duration="23000" />
+      <workItem from="1526252864651" duration="2993000" />
+      <workItem from="1526330136624" duration="807000" />
+      <workItem from="1526343619519" duration="762000" />
+      <workItem from="1526442910861" duration="606000" />
+      <workItem from="1526669261944" duration="10926000" />
     </task>
     <task id="LOCAL-00001" summary="lab10">
       <created>1522874862937</created>
@@ -794,10 +823,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78502000" />
+    <option name="totallyTimeSpent" value="95436000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="412" width="968" height="1047" extended-state="1" />
+    <frame x="-12" y="0" width="954" height="1047" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -809,17 +838,17 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23875803" sideWeight="0.4939074" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23875803" sideWeight="0.4939074" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2920168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29744136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17071198" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3308351" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -852,56 +881,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/school.js" />
-    <entry file="file://$PROJECT_DIR$/views/company/CompanyUpdate.ejs" />
-    <entry file="file://$PROJECT_DIR$/routes/dal/school_dal.js" />
-    <entry file="file://$PROJECT_DIR$/routes/company.js" />
-    <entry file="file://$PROJECT_DIR$/views/company/company_view_all.ejs" />
-    <entry file="file://$PROJECT_DIR$/views/school/SchoolUpdate.ejs" />
-    <entry file="file://$PROJECT_DIR$/views/school/school_view_all.ejs" />
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="15" lean-forward="false" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dal/company_dal.js" />
-    <entry file="file://$PROJECT_DIR$/routes/account.js" />
-    <entry file="file://$PROJECT_DIR$/routes/dal/account_dal.js" />
-    <entry file="file://$PROJECT_DIR$/views/stock_account/Stock_AccountUpdate" />
-    <entry file="file://$PROJECT_DIR$/views/account/AccountUpdate.ejs" />
-    <entry file="file://$PROJECT_DIR$/routes/dal/stock_account-dal.js" />
-    <entry file="file://$PROJECT_DIR$/views/account/account_add.ejs" />
-    <entry file="file://$PROJECT_DIR$/views/account/account_view_all.ejs" />
-    <entry file="file://$PROJECT_DIR$/routes/dal/customer.js" />
-    <entry file="file://$PROJECT_DIR$/routes/dal/skill_dal.js" />
-    <entry file="file://$PROJECT_DIR$/views/skill/skill_add.ejs" />
-    <entry file="file://$PROJECT_DIR$/views/skill/skill_view_all.ejs" />
-    <entry file="file://$PROJECT_DIR$/views/customer/customer_view_all.ejs.js" />
-    <entry file="file://$PROJECT_DIR$/views/customer/CustomerUpdate" />
-    <entry file="file://$PROJECT_DIR$/views/skill/SkillUpdate.ejs" />
     <entry file="file://$PROJECT_DIR$/routes/dal/address_dal.js" />
     <entry file="file://$PROJECT_DIR$/routes/address.js" />
     <entry file="file://$PROJECT_DIR$/views/address/address_add.ejs" />
     <entry file="file://$PROJECT_DIR$/views/address/address_view_all.ejs" />
     <entry file="file://$PROJECT_DIR$/views/address/AddressUpdate.ejs" />
-    <entry file="file://$PROJECT_DIR$/views/stock_account/stock_account_add.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_DS_Store" />
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/sell/sell_add.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -909,60 +894,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/stock_account/stock_account_view_all.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/customer/customer_add.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/skill.js" />
-    <entry file="file://$PROJECT_DIR$/routes/stock_account.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dal/customer_dal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dal/buy_dal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/buy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/buy/BuyUpdate.ejs">
+    <entry file="file://$PROJECT_DIR$/views/sell/SellUpdate.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/stock_account/Stock_AccountUpdate.ejs">
+    <entry file="file://$PROJECT_DIR$/routes/dal/buy.js" />
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/jsLibraryMappings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="40" column="15" lean-forward="false" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/dal/db_connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/sell/sell_view_all.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/dal/stock_account_dal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="54" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/sell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="36" lean-forward="false" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/customer/CustomerUpdate.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/customer/in.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -974,74 +1028,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/buy/buy_view_all.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/sell/sell_view_all.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/sell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="7" lean-forward="false" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/dal/sell_dal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="2" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+        <state relative-caret-position="566">
+          <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dal/stock_account_dal.js">
+    <entry file="file://$PROJECT_DIR$/views/buy/BuyUpdate.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/customer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/customer/customer_view_all.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="697">
+          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/customer/CustomerUpdate.ejs">
+    <entry file="file://$PROJECT_DIR$/views/customer/view.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/sell/SellUpdate.ejs">
+    <entry file="file://$PROJECT_DIR$/views/buy/uni.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/customer/exi.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/customer/gro.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/customer/customer_add.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/dal/customer_dal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="64" column="11" lean-forward="false" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/stock_account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="71" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stock_account/Stock_AccountUpdate.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stock_account/stock_account_view_all.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stock_account/stock_account_add.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buy/dist.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buy/sub.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="99" lean-forward="false" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buy/buy_view_all.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="90" lean-forward="false" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/dal/buy_dal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="82" column="83" lean-forward="false" selection-start-line="82" selection-start-column="83" selection-end-line="82" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/buy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="127" column="32" lean-forward="false" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buy/join.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="109" lean-forward="false" selection-start-line="59" selection-start-column="109" selection-end-line="59" selection-end-column="109" />
           <folding />
         </state>
       </provider>

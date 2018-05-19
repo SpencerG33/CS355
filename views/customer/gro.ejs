@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customers - View All</title>
+</head>
+<body>
+<h1>Customer first names in alphabetical order</h1>
+<table border="1">
+    <tr><th>First Name </th><th>Last Name </th> </tr>
+    <% for(var i=0; customer.length > i; i++ ) {%>
+    <tr>
+
+        <td>
+
+            <%= customer[i].first_name %>
+            </a>
+        </td>
+        <td>
+
+            <%= customer[i].last_name %>
+            </a>
+        </td>
+
+    </tr>
+    <% } %>
+</table>
+</body>
+</html>

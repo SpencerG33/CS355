@@ -30,7 +30,7 @@ router.get('/insert', function (req, res) {
             res.send(err)
         }
         else {
-            res.redirect(302, '/customer/all');
+            res.redirect(302, '/stock_account/add');
         }
     });
 });
@@ -64,5 +64,71 @@ router.get('/update', function (req, res) {
     });
 
 });
+
+router.get('/view', function(reg, res, next) {
+    customer_dal.view(function (err, result) {
+        if(err) {
+            console.log(err);
+            res.send(err);
+        } else {
+            console.log(result);
+            res.render('customer/view', {customer: result, social: result, email: result, first_name: result, last_name: result});
+        }
+    })
+
+});
+
+router.get('/in', function(reg, res, next) {
+    customer_dal.in(function (err, result) {
+        if(err) {
+            console.log(err);
+            res.send(err);
+        } else {
+            console.log(result);
+            res.render('customer/in', {customer: result, social: result, email: result, first_name: result, last_name: result});
+        }
+    })
+
+});
+
+router.get('/exi', function(reg, res, next) {
+    customer_dal.exi(function (err, result) {
+        if(err) {
+            console.log(err);
+            res.send(err);
+        } else {
+            console.log(result);
+            res.render('customer/exi', {customer: result, social: result, email: result, first_name: result, last_name: result});
+        }
+    })
+
+});
+
+router.get('/gro', function(reg, res, next) {
+    customer_dal.gro(function (err, result) {
+        if(err) {
+            console.log(err);
+            res.send(err);
+        } else {
+            console.log(result);
+            res.render('customer/gro', {customer: result, social: result, email: result, first_name: result, last_name: result});
+        }
+    })
+
+});
+
+
+router.get('/delete', function (req, res) {
+    customer_dal.delete(req.query.customer_id, function (err,result) {
+        if(err){
+            console.log(err);
+            res.send(err)
+        }
+        else {
+            res.redirect(302, '/customer/all');
+        }
+    });
+});
+
 
 module.exports = router;
